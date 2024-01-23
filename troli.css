@@ -1,4 +1,4 @@
-h2{
+h2 {
   letter-spacing: 1px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -9,35 +9,35 @@ h2:first-letter {
   margin-top: 50px;
 }
 
-p{
+p {
   text-indent: 30px;
   text-align: justify;
 }
 
-#def{
+#def {
   font-style: italic;
   text-align: center;
 }
 
-#jaratviszonylatok{
+#jaratviszonylatok {
   text-align: center;
   border: 2px solid red;
   border-radius: 15px;
   margin-bottom: 100px;
 }
 
-#jaratviszonylatok p{
+#jaratviszonylatok p {
   text-indent: 0px;
   text-align: center;
 }
 
-#magyarazat{
+#magyarazat {
   border: 2px solid red;
   border-radius: 15px;
   margin: 10px 0px 20px;
 }
 
-#magyarazat ol li{
+#magyarazat ol li {
   margin: 5px -10px 0px;
   font-style: italic;
   font-size: 90%;
@@ -47,13 +47,16 @@ p{
   position: fixed;
   bottom: 10px;
   right: 10px;
-  z-index: 99; 
+  z-index: 99;
   border: 1px solid black;
   outline: none;
   background-color: white;
   color: white;
   cursor: pointer;
   padding: 10px;
-  border-radius: 10px; 
-  }
+  border-radius: 10px;
+}
 
+#rejtettGomb:hover {
+  background-color: #555;
+}
